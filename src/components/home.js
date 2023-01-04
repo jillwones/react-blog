@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      { blogs ? <BlogList blogs={blogs} title="All Blogs" /> : <p>Loading...</p>}
+      { blogs ? <BlogList blogs={blogs} title="All Blogs" /> : <div>Loading...</div>}
     </div>
   );
 }
