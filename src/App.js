@@ -1,6 +1,5 @@
-import "./App.css";
-import Navbar from "./navbar";
-import Home from "./home";
+import Navbar from "./components/navbar";
+import Home from "./components/home";
 
 function App() {
   const title = "Welcome to the new blog";
